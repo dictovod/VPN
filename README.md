@@ -25,6 +25,7 @@ Systemd unit-файл сервиса:
 ```
 /opt/xray/config.json  
 /opt/etc/xray/config.json  
-/usr/local/etc/xray/configs/``` (папка с дополнительными конфигурациями)
+/usr/local/etc/xray/configs/
+``` (папка с дополнительными конфигурациями)
 
 Эти пути покрывают основную структуру настройки и файлов сервиса Xray на Linux-серверах.
