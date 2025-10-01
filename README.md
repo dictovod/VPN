@@ -7,19 +7,19 @@
 `/usr/local/etc/xray/config.json`
 
 Systemd unit-файл сервиса:
-/etc/systemd/system/xray.service
+`/etc/systemd/system/xray.service`
 
 Дополнительные дроп-ин файлы systemd для переопределения настроек:
-/etc/systemd/system/xray.service.d/10-donot_touch_single_conf.conf
-/etc/systemd/system/xray.service.d/override.conf
+`/etc/systemd/system/xray.service.d/10-donot_touch_single_conf.conf
+/etc/systemd/system/xray.service.d/override.conf`
 
 Логи (по умолчанию, если настраивались):
-/var/log/xray/access.log
-/var/log/xray/error.log
+`/var/log/xray/access.log
+/var/log/xray/error.log`
 
 Возможные альтернативные пути к конфигам (зависит от способа установки):
-/opt/xray/config.json
+`/opt/xray/config.json
 /opt/etc/xray/config.json
-/usr/local/etc/xray/configs/ (папка с дополнительными конфигурациями)
+/usr/local/etc/xray/configs/` (папка с дополнительными конфигурациями)
 
 Эти пути покрывают основную структуру настройки и файлов сервиса Xray на Linux-серверах.
