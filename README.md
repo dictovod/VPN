@@ -14,12 +14,12 @@ Systemd unit-файл сервиса:
 /etc/systemd/system/xray.service.d/override.conf`
 
 Логи (по умолчанию, если настраивались):  
-`/var/log/xray/access.log
+`/var/log/xray/access.log  
 /var/log/xray/error.log`
 
 Возможные альтернативные пути к конфигам (зависит от способа установки):  
-`/opt/xray/config.json
-/opt/etc/xray/config.json
+`/opt/xray/config.json  
+/opt/etc/xray/config.json  
 /usr/local/etc/xray/configs/` (папка с дополнительными конфигурациями)
 
 Эти пути покрывают основную структуру настройки и файлов сервиса Xray на Linux-серверах.
