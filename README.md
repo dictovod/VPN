@@ -4,7 +4,7 @@
 Основные пути к конфигурационным файлам сервиса Xray на вашем сервере:
 
 Основной конфигурационный файл:
-/usr/local/etc/xray/config.json
+`/usr/local/etc/xray/config.json`
 
 Systemd unit-файл сервиса:
 /etc/systemd/system/xray.service
