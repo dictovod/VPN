@@ -10,10 +10,10 @@ Systemd unit-файл сервиса:
 `/etc/systemd/system/xray.service`
 
 Дополнительные дроп-ин файлы systemd для переопределения настроек:  
-```
+`
 /etc/systemd/system/xray.service.d/10-donot_touch_single_conf.conf 
 /etc/systemd/system/xray.service.d/override.conf
-```
+`
 
 Логи (по умолчанию, если настраивались):  
 `/var/log/xray/access.log  
