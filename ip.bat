@@ -1,5 +1,5 @@
 @echo off
-set /p SEC=Интервал (секунд): 
+set /p SEC=Interval (seconds): 
 :loop
 for /f "tokens=*" %%a in ('curl -s https://api.ipify.org') do set IP=%%a
 echo %date% %time% IP: %IP%
