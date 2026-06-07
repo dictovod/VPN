@@ -20,5 +20,5 @@ curl -o ip.bat https://raw.githubusercontent.com/dictovod/VPN/refs/heads/main/ip
 
 Установить [Termux](https://github.com/termux/termux-app/releases), затем:
 ```bash
-curl -o ip.sh https://raw.githubusercontent.com/dictovod/VPN/refs/heads/main/ip.sh && bash ip.sh
+curl -s https://raw.githubusercontent.com/dictovod/VPN/refs/heads/main/ip.sh | tr -d '\r' | bash
 ```
