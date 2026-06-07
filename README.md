@@ -20,8 +20,5 @@ curl -o ip.bat https://raw.githubusercontent.com/dictovod/VPN/refs/heads/main/ip
 
 Установить [Termux](https://github.com/termux/termux-app/releases), затем:
 ```bash
-curl -s https://raw.githubusercontent.com/dictovod/VPN/refs/heads/main/ip.sh | tr -d '\r' | bash -s 3
-```
-```bash
-SEC=3; while true; do IP=$(curl -s https://api.ipify.org); echo "$(date '+%Y-%m-%d %H:%M:%S') IP: $IP"; sleep $SEC; done
+SEC=10; while true; do IP=$(curl -s https://api.ipify.org); echo "$(date '+%Y-%m-%d %H:%M:%S') IP: $IP"; sleep $SEC; done
 ```
