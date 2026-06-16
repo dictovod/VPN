@@ -11,8 +11,8 @@ plugins {
           applicationId 'ru.callmy'
           minSdk 26
           targetSdk 34
-          versionCode 20
-          versionName '1.0.40'
+          versionCode 21
+          versionName '1.0.41'
       }
 
       buildTypes {
